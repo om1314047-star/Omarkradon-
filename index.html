@@ -1,57 +1,61 @@
 <!DOCTYPE html><html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Omar Bedouin Content</title>
-<script src="https://cdn.tailwindcss.com"></script><script>
-function copyPrompt(text){
-  navigator.clipboard.writeText(text);
-  alert("تم نسخ البرومبت ✔");
-}
-</script></head><body class="bg-neutral-900 text-white font-sans"><header class="text-center py-12 border-b border-neutral-700">
-<h1 class="text-4xl font-bold">Omar Bedouin Content</h1>
-<p class="text-neutral-400 mt-3">صانع محتوى بدوي | برومبتات صور | قوالب CapCut</p>
-</header><section class="max-w-4xl mx-auto py-12 px-6 text-center">
-<h2 class="text-3xl font-semibold mb-6">من أنا</h2>
-<p class="text-neutral-300 leading-8">
-أنا صانع محتوى على تيك توك أقدم صور سينمائية بطابع بدوي باستخدام الذكاء الاصطناعي،
-وأصمم قوالب مونتاج احترافية لبرنامج CapCut.
-</p>
-</section><section class="max-w-6xl mx-auto px-6 py-12">
-<h2 class="text-3xl font-semibold mb-10 text-center">معرض الصور والبرومبتات</h2><div class="grid md:grid-cols-3 gap-8"><div class="bg-neutral-800 rounded-2xl overflow-hidden">
-<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" class="w-full h-60 object-cover">
-<div class="p-4">
-<p class="text-sm text-neutral-300">Arab Bedouin man wearing black thobe sitting on a red desert carpet at night drinking Arabic coffee near a campfire, cinematic lighting, ultra realistic</p>
-<button onclick="copyPrompt('Arab Bedouin man wearing black thobe sitting on a red desert carpet at night drinking Arabic coffee near a campfire, cinematic lighting, ultra realistic')" class="mt-3 bg-white text-black px-4 py-2 rounded-lg">نسخ البرومبت</button>
+<style>
+body{font-family:Arial;background:#0f0f0f;color:white;margin:0;padding:0}
+header{padding:40px 20px;text-align:center;background:#141414}
+h1{margin:0;font-size:32px}
+.sub{color:#aaa;margin-top:10px}
+section{padding:40px 20px;max-width:900px;margin:auto}
+.gallery{display:grid;grid-template-columns:1fr;gap:20px}
+.card{background:#1c1c1c;padding:15px;border-radius:12px}
+.card img{width:100%;border-radius:10px}
+.prompt{margin-top:10px;color:#ccc;font-size:14px}
+button{margin-top:10px;padding:8px 12px;border:none;border-radius:6px;background:#25d366;color:white;cursor:pointer}
+.social{margin-top:20px}
+.social a{display:inline-block;padding:10px 16px;background:#ff0050;border-radius:8px;color:white;text-decoration:none}
+.templates a{display:block;background:#1c1c1c;margin:10px 0;padding:15px;border-radius:10px;color:white;text-decoration:none}
+footer{text-align:center;color:#777;padding:30px}
+</style>
+</head><body><header>
+<h1>Omar Bedouin Content</h1>
+<p class="sub">صانع محتوى بدوي | برومبتات صور | قوالب مونتاج</p><div class="social">
+<a href="#">تابعني على TikTok</a>
 </div>
-</div><div class="bg-neutral-800 rounded-2xl overflow-hidden">
-<img src="https://images.unsplash.com/photo-1519681393784-d120267933ba" class="w-full h-60 object-cover">
-<div class="p-4">
-<p class="text-sm text-neutral-300">Saudi traditional sword dance inside a majlis, man wearing white thobe holding sword, Saudi celebration atmosphere, cinematic lighting</p>
-<button onclick="copyPrompt('Saudi traditional sword dance inside a majlis, man wearing white thobe holding sword, Saudi celebration atmosphere, cinematic lighting')" class="mt-3 bg-white text-black px-4 py-2 rounded-lg">نسخ البرومبت</button>
-</div>
-</div><div class="bg-neutral-800 rounded-2xl overflow-hidden">
-<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" class="w-full h-60 object-cover">
-<div class="p-4">
-<p class="text-sm text-neutral-300">Arab man wearing black thobe with red keffiyeh standing confidently, cinematic lighting, ultra realistic portrait</p>
-<button onclick="copyPrompt('Arab man wearing black thobe with red keffiyeh standing confidently cinematic lighting ultra realistic portrait')" class="mt-3 bg-white text-black px-4 py-2 rounded-lg">نسخ البرومبت</button>
-</div>
+</header><section>
+<h2>من أنا</h2>
+<p>أنا صانع محتوى على تيك توك أقدم صور سينمائية بطابع بدوي باستخدام الذكاء الاصطناعي، وأصمم قوالب مونتاج تساعد صناع المحتوى.</p>
+</section><section>
+<h2>معرض الصور والبرومبتات</h2>
+<div class="gallery"><div class="card">
+<img src="https://picsum.photos/600/400?1">
+<p class="prompt" id="p1">رجل بدوي يجلس أمام نار في الصحراء ليلاً يشرب القهوة العربية، إضاءة سينمائية واقعية</p>
+<button onclick="copyPrompt('p1')">نسخ البرومبت</button>
+</div><div class="card">
+<img src="https://picsum.photos/600/400?2">
+<p class="prompt" id="p2">شاب سعودي يرتدي ثوب أسود يقف في الصحراء والرياح تحرك الغترة، لقطة سينمائية</p>
+<button onclick="copyPrompt('p2')">نسخ البرومبت</button>
+</div><div class="card">
+<img src="https://picsum.photos/600/400?3">
+<p class="prompt" id="p3">مجلس بدوي ليلي حول النار مع رجال بملابس تقليدية وإضاءة نار دافئة</p>
+<button onclick="copyPrompt('p3')">نسخ البرومبت</button>
 </div></div>
-</section><section class="max-w-5xl mx-auto px-6 py-12">
-<h2 class="text-3xl font-semibold mb-10 text-center">قوالب CapCut</h2><div class="grid md:grid-cols-2 gap-6 text-center"><a href="https://www.capcut.com/tv2/ZSuaBp4QN/" target="_blank" class="bg-neutral-800 p-6 rounded-xl hover:bg-neutral-700">قالب انا الصقر</a>
-
-<a href="https://www.capcut.com/tv2/ZSuaBfhPX/" target="_blank" class="bg-neutral-800 p-6 rounded-xl hover:bg-neutral-700">قالب بارك الله للرجال</a>
-
-<a href="https://www.capcut.com/tv2/ZSuaBWGgK/" target="_blank" class="bg-neutral-800 p-6 rounded-xl hover:bg-neutral-700">قالب خالد السلامه انسني</a>
-
-<a href="https://www.capcut.com/tv2/ZSuaBpJGB/" target="_blank" class="bg-neutral-800 p-6 rounded-xl hover:bg-neutral-700">قالب قابليني ان لقيتي ربع</a>
-
-<a href="https://www.capcut.com/tv2/ZSuaBGLTa/" target="_blank" class="bg-neutral-800 p-6 rounded-xl hover:bg-neutral-700">قالب عطني عهد</a>
-
-<a href="https://www.capcut.com/tv2/ZSuaBxHCN/" target="_blank" class="bg-neutral-800 p-6 rounded-xl hover:bg-neutral-700">قالب اجاذبك الهوى</a>
-
+</section><section>
+<h2>قوالب المونتاج</h2>
+<div class="templates">
+<a href="#">قالب مونتاج بدوي 1</a>
+<a href="#">قالب مونتاج بدوي 2</a>
+<a href="#">قالب مونتاج بدوي 3</a>
 </div>
-</section><footer class="text-center py-10 border-t border-neutral-700 text-neutral-400">
-<p>تابعني على TikTok: @omar</p>
-</footer></body>
+</section><footer>
+<p>© 2026 Omar Bedouin Content</p>
+</footer><script>
+function copyPrompt(id){
+let text=document.getElementById(id).innerText;
+navigator.clipboard.writeText(text);
+alert("تم نسخ البرومبت");
+}
+</script></body>
 </html>
