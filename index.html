@@ -1,61 +1,59 @@
 <!DOCTYPE html><html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Omar Bedouin Content</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Omar Kradon | المحتوى البدوي</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
 <style>
-body{font-family:Arial;background:#0f0f0f;color:white;margin:0;padding:0}
-header{padding:40px 20px;text-align:center;background:#141414}
-h1{margin:0;font-size:32px}
-.sub{color:#aaa;margin-top:10px}
-section{padding:40px 20px;max-width:900px;margin:auto}
-.gallery{display:grid;grid-template-columns:1fr;gap:20px}
-.card{background:#1c1c1c;padding:15px;border-radius:12px}
-.card img{width:100%;border-radius:10px}
-.prompt{margin-top:10px;color:#ccc;font-size:14px}
-button{margin-top:10px;padding:8px 12px;border:none;border-radius:6px;background:#25d366;color:white;cursor:pointer}
-.social{margin-top:20px}
-.social a{display:inline-block;padding:10px 16px;background:#ff0050;border-radius:8px;color:white;text-decoration:none}
-.templates a{display:block;background:#1c1c1c;margin:10px 0;padding:15px;border-radius:10px;color:white;text-decoration:none}
-footer{text-align:center;color:#777;padding:30px}
+body{font-family:'Cairo',sans-serif}
 </style>
-</head><body><header>
-<h1>Omar Bedouin Content</h1>
-<p class="sub">صانع محتوى بدوي | برومبتات صور | قوالب مونتاج</p><div class="social">
-<a href="#">تابعني على TikTok</a>
-</div>
-</header><section>
-<h2>من أنا</h2>
-<p>أنا صانع محتوى على تيك توك أقدم صور سينمائية بطابع بدوي باستخدام الذكاء الاصطناعي، وأصمم قوالب مونتاج تساعد صناع المحتوى.</p>
-</section><section>
-<h2>معرض الصور والبرومبتات</h2>
-<div class="gallery"><div class="card">
-<img src="https://picsum.photos/600/400?1">
-<p class="prompt" id="p1">رجل بدوي يجلس أمام نار في الصحراء ليلاً يشرب القهوة العربية، إضاءة سينمائية واقعية</p>
-<button onclick="copyPrompt('p1')">نسخ البرومبت</button>
-</div><div class="card">
-<img src="https://picsum.photos/600/400?2">
-<p class="prompt" id="p2">شاب سعودي يرتدي ثوب أسود يقف في الصحراء والرياح تحرك الغترة، لقطة سينمائية</p>
-<button onclick="copyPrompt('p2')">نسخ البرومبت</button>
-</div><div class="card">
-<img src="https://picsum.photos/600/400?3">
-<p class="prompt" id="p3">مجلس بدوي ليلي حول النار مع رجال بملابس تقليدية وإضاءة نار دافئة</p>
-<button onclick="copyPrompt('p3')">نسخ البرومبت</button>
-</div></div>
-</section><section>
-<h2>قوالب المونتاج</h2>
-<div class="templates">
-<a href="#">قالب مونتاج بدوي 1</a>
-<a href="#">قالب مونتاج بدوي 2</a>
-<a href="#">قالب مونتاج بدوي 3</a>
-</div>
-</section><footer>
-<p>© 2026 Omar Bedouin Content</p>
+</head><body class="bg-[#1b140d] text-white"><!-- HEADER --><header class="text-center py-12 bg-gradient-to-b from-[#3b2a1a] to-[#1b140d]">
+<img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c" class="mx-auto w-32 h-32 rounded-full border-4 border-yellow-600 object-cover" />
+<h1 class="text-4xl font-bold mt-4">Omar Kradon</h1>
+<p class="text-yellow-400 mt-2">صانع محتوى بدوي | برومبتات | قوالب مونتاج</p><div class="mt-6">
+<a href="https://www.tiktok.com/@omar_mohamad_kradon" target="_blank" class="bg-yellow-600 hover:bg-yellow-500 px-6 py-3 rounded-xl font-bold">تابعني على TikTok</a>
+</div><p class="mt-4 text-gray-300">عدد المتابعين على TikTok</p>
+<p id="followers" class="text-3xl text-yellow-400 font-bold">...</p>
+</header><!-- ABOUT --><section class="max-w-4xl mx-auto px-6 py-12 text-center">
+<h2 class="text-3xl font-bold mb-4 text-yellow-500">من أنا</h2>
+<p class="text-gray-300 leading-8">
+أنا صانع محتوى بدوي على تيك توك أقدم صور وبرومبتات احترافية باستخدام الذكاء الاصطناعي، بالإضافة إلى قوالب مونتاج لبرنامج CapCut.
+</p>
+</section><!-- GALLERY --><section class="max-w-6xl mx-auto px-6 py-12">
+<h2 class="text-3xl font-bold text-center mb-10 text-yellow-500">معرض الصور</h2><div class="grid md:grid-cols-3 gap-6"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" class="rounded-2xl shadow-lg" />
+<img src="https://images.unsplash.com/photo-1519681393784-d120267933ba" class="rounded-2xl shadow-lg" />
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" class="rounded-2xl shadow-lg" />
+<img src="https://images.unsplash.com/photo-1493244040629-496f6d136cc3" class="rounded-2xl shadow-lg" />
+<img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e" class="rounded-2xl shadow-lg" />
+<img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429" class="rounded-2xl shadow-lg" />
+<img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9" class="rounded-2xl shadow-lg" />
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" class="rounded-2xl shadow-lg" />
+<img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d" class="rounded-2xl shadow-lg" /></div>
+</section><!-- PROMPTS --><section class="max-w-4xl mx-auto px-6 py-12">
+<h2 class="text-3xl font-bold text-center mb-8 text-yellow-500">برومبتات الصور</h2><div class="bg-[#2a1e14] p-6 rounded-xl mb-6">
+<p id="prompt1" class="text-gray-300">Bedouin man drinking Arabic coffee in the desert at night, cinematic lighting, fire camp, ultra realistic</p>
+<button onclick="copyPrompt('prompt1')" class="mt-3 bg-yellow-600 px-4 py-2 rounded">نسخ البرومبت</button>
+</div><div class="bg-[#2a1e14] p-6 rounded-xl">
+<p id="prompt2" class="text-gray-300">Arab warrior dancing with sword in Saudi majlis, traditional clothes, cinematic photo</p>
+<button onclick="copyPrompt('prompt2')" class="mt-3 bg-yellow-600 px-4 py-2 rounded">نسخ البرومبت</button>
+</div></section><!-- CAPCUT --><section class="max-w-4xl mx-auto px-6 py-12 text-center">
+<h2 class="text-3xl font-bold mb-6 text-yellow-500">قوالب CapCut</h2>
+<p class="text-gray-300">قريباً سيتم إضافة قوالب مونتاج جاهزة للتحميل.</p>
+</section><footer class="text-center py-6 text-gray-500 border-t border-gray-800">
+© Omar Kradon
 </footer><script>
 function copyPrompt(id){
-let text=document.getElementById(id).innerText;
-navigator.clipboard.writeText(text);
-alert("تم نسخ البرومبت");
+var text=document.getElementById(id).innerText
+navigator.clipboard.writeText(text)
+alert("تم نسخ البرومبت")
 }
+
+// Fake follower counter (placeholder until real API)
+let followers=12000
+setInterval(()=>{
+followers+=Math.floor(Math.random()*3)
+document.getElementById('followers').innerText=followers.toLocaleString()
+},2000)
 </script></body>
 </html>
